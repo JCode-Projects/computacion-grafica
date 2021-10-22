@@ -219,8 +219,8 @@ public class DibujoLineas extends JFrame {
         }
     }
     
-   public static void main(String[] args) {
-       DibujoLineas appLines = new DibujoLineas();
-       appLines.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-   }
+    public static void main(String[] args) {
+        DibujoLineas appLines = new DibujoLineas();
+        appLines.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
 }

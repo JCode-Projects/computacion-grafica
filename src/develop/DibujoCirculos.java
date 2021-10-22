@@ -30,8 +30,6 @@ public class DibujoCirculos extends JFrame {
             {178, 152, 80, 115}, {260, 190, 35, 40}, 
             {198, 190, 35, 40}
         };
-
-        g2.setStroke(new BasicStroke(4.0f));
         
         // Alas de la abeja
         g2.draw(new Ellipse2D.Double(100, 110, 60, 120));
