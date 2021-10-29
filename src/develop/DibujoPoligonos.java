@@ -1,6 +1,5 @@
 package develop;
 
-import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Polygon;
 import javax.swing.JFrame;
@@ -10,7 +9,7 @@ import java.awt.Graphics2D;
 public class DibujoPoligonos extends JFrame {
     public DibujoPoligonos() {
         super("Dibujo Poligonos");
-        setSize(300, 300);
+        setSize(250, 280);
         setVisible(true);
         setResizable(false);
         setLocationRelativeTo(null);
